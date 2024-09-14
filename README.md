@@ -59,10 +59,8 @@ pip3 install fusepy
 Clone the repository from GitHub:
 
 ```bash
-git clone https://github.com/yourusername/calibre-to-abs-bridge.git
+git clone https://github.com/austinsr1/calibre-to-abs-bridge.git
 ```
-
-Replace `yourusername` with your actual GitHub username or the URL of the repository.
 
 ### Step 6: Navigate to the Project Directory
 
