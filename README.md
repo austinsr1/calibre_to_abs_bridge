@@ -105,8 +105,6 @@ Set the permissions so that Audiobookshelf has full access:
 sudo chmod 777 /mnt/abs
 ```
 
-**Warning**: Using `chmod 777` gives read, write, and execute permissions to all users, which can be a security risk. Ensure that your system's security policies allow for this, or consider more restrictive permissions that still allow Audiobookshelf to function properly.
-
 ### Step 2: Run the Script
 
 ```bash
@@ -191,12 +189,6 @@ For easy installation of dependencies, you can use the provided `requirements.tx
 
 ```bash
 pip3 install -r requirements.txt
-```
-
-Contents of `requirements.txt`:
-
-```
-fusepy
 ```
 
 ## License
