@@ -1,3 +1,5 @@
+
+
 # Calibre to Audiobookshelf Bridge
 
 `calibre_to_abs_bridge.py` is a FUSE-based virtual filesystem that bridges **Calibre** and **Audiobookshelf** by dynamically restructuring your ebook collection to meet Audiobookshelf's directory requirements. It presents your books in a hierarchy organized by author and series, enabling seamless integration with Audiobookshelf without altering your original Calibre library.
@@ -10,7 +12,7 @@
 
 Before installing and running the script, ensure that you have the following installed:
 
-- **Python**: Version 3.x
+- **Python**: Version 3.6 or higher
 - **FUSE**: Filesystem in Userspace (version 2.x)
 - **Python Packages**:
   - `fusepy` (for interfacing with FUSE)
